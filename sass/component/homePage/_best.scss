@@ -1,0 +1,77 @@
+#best_trends {
+  @extend .mt-16;
+}
+
+.best_trends_bunner {
+  position: relative;
+
+  &:hover img {
+    transition: transform .5s ease .05s, opacity .3s !important;
+    transform: scale3d(1.075, 1.075, 1);
+  }
+}
+
+
+
+.best_trends_bunner_img {
+  // height: 500px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+  }
+}
+
+
+.best_trends_bunner_text {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: flex-end;
+
+
+  div {
+    width: 50%;
+    @extend .text-align-center;
+  }
+
+  button {
+    color: #fff;
+    background-color: #17c6aa;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    padding: 15px 35px;
+    cursor: pointer;
+    white-space: nowrap;
+    border: 0 !important;
+    border-radius: 4px;
+  }
+
+  h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.2em;
+    position: relative;
+    z-index: 1;
+    @extend .mb-5;
+    padding: 0;
+    color: #282828;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.69em;
+    @extend .mb-5;
+    color: $secondary-color;
+  }
+
+}

@@ -1,0 +1,30 @@
+#choice {
+    @extend .mt-16;
+}
+
+.text_icn_blocks_row {
+    @extend .flex;
+    @extend .justify-content-between;
+    @extend .mt-16;
+}
+
+.choice_holder_title_wrap {
+    @extend .text-align-center
+}
+
+.text_icn_block {
+    @extend .text-align-center;
+
+    i {
+        font-size: 70px;
+        position: relative;
+        color: #c1c9cf;
+    }
+
+    .text {
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 28px;
+        padding: 25px 35px 0;
+    }
+}

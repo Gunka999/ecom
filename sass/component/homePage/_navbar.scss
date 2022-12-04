@@ -1,0 +1,33 @@
+.dropdn_content {
+  position: absolute;
+  top: -1000px;
+  min-width: 125px;
+  padding: 13px 19px 9px;
+  transition: transform .2s;
+  transform: translateY(20px);
+  pointer-events: none;
+  opacity: 0;
+  color: #282828;
+  background-color: #fff;
+  box-shadow: 0 30px 35px rgba(0, 0, 0, 7%);
+
+  ul {
+    li a {
+      color: black;
+      font-size: 14px;
+      line-height: 17px;
+      display: inline-block;
+      padding: 5px 0;
+    }
+  }
+}
+
+.dropdn_language {
+  &:hover .dropdn_content {
+    top: 36px;
+    transform: translate3d(0, 0, 0);
+    pointer-events: all;
+    opacity: 1;
+    z-index: 1;
+  }
+}

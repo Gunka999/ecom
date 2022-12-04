@@ -1,0 +1,52 @@
+.banner_list {
+    @extend .mt-6;
+    @extend .pr-3;
+    @extend .pl-3;
+    position: relative;
+
+
+
+    .banner_text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        z-index: 1;
+        padding: $space-2x $space-3x;
+        transform: translate(-50%, -50%);
+        @extend .text-align-center;
+        background: rgba(255, 255, 255, .9);
+
+        h3 {
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 1.2em;
+            margin-bottom: 5px;
+            color: #282828;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        h4 {
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 1.2em;
+            margin-bottom: 0;
+            color: $secondary-color;
+            font-family: 'Open Sans', sans-serif;
+        }
+    }
+
+    .banner_img {
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            transition: 0.5s all ease-in-out;
+        }
+
+        &:hover img {
+            // transform: scale(1.5);
+            transition: transform .5s ease .05s, opacity .3s !important;
+            transform: scale3d(1.075, 1.075, 1);
+        }
+    }
+}

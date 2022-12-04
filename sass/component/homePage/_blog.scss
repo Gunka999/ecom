@@ -1,0 +1,30 @@
+.blog_header {
+    @extend .text-align-center;
+    @extend .mt-16;
+
+    h2 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.2em;
+        position: relative;
+        z-index: 1;
+        padding: 0;
+        color: #282828;
+    }
+}
+
+.banner_calendar {
+    @extend .text-align-center;
+    @extend .mt-3;
+    color: $secondary-color;
+}
+
+.blog_text {
+    @extend .text-align-center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 0;
+    @extend .mt-3;
+}

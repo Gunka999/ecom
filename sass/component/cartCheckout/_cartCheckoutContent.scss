@@ -1,0 +1,343 @@
+.paceName {
+    background-color: #f7f7f7;
+    @extend .pt-2;
+    @extend .pb-2;
+    @extend .pl-2;
+    @extend .text-align-center;
+
+    .underline {
+        text-decoration-line: underline;
+    }
+
+    li {
+        font-size: 15px;
+    }
+
+    a {
+        font-size: 15px;
+
+        i {
+            @extend .pl-2;
+            @extend .pr-2;
+            font-size: 10px;
+        }
+    }
+}
+
+
+.sc_table_text {
+    @extend .text-align-center;
+    @extend .mt-5;
+
+    h1 {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.2em;
+        position: relative;
+        z-index: 1;
+        @extend .mb-6;
+        padding: 0;
+        color: #282828;
+    }
+
+}
+
+.sc_table_header {
+    border-top: 1px solid #f4f4f4;
+    font-size: 15px;
+}
+
+.sc_table_product_content {
+    border-top: 1px solid #f4f4f4;
+
+    img {
+        width: 100%;
+    }
+}
+
+.content_location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sc_table_product_price {
+    align-items: baseline;
+
+    .price_old {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1em;
+        text-decoration: line-through;
+    }
+
+    .price_new {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1em;
+        color: #282828;
+        @extend .ml-2;
+    }
+}
+
+.sc_table_product_name {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.2em;
+    margin-bottom: 0;
+    @extend .mt-2;
+}
+
+.units {
+    display: flex;
+
+    input {
+        width: 49%;
+        font-size: 15px;
+        width: 30px;
+        margin: 0 6px;
+        padding: 0;
+        text-align: center;
+        border: 0;
+        border: 1px solid transparent;
+        background: #f7f7f8;
+        text-align: center;
+    }
+
+    button {
+        width: 17px;
+        height: 17px;
+        padding: 0px;
+        cursor: pointer;
+        border: 0;
+        border-radius: 50%;
+        align-items: center;
+    }
+}
+
+.price {
+    font-size: 22px;
+    max-width: 160px;
+    padding-left: 15px;
+}
+
+.product_delete {
+    i {
+        color: #f12b2b;
+        font-size: 20px;
+    }
+}
+
+.btn_grey {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    cursor: pointer;
+    border: 0 !important;
+    border-radius: 4px;
+    color: #282828;
+    background-color: #efefef;
+}
+
+.h1_style {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 0 25px;
+    color: #282828;
+}
+
+.carousel_product {
+    button {
+        border: none;
+        background: none;
+        padding: 10px;
+        font-size: 20px;
+    }
+}
+
+.cart_promo_banner {
+    text-align: center;
+    color: #fff;
+    background-color: #e91e63;
+    padding: 25px 15px;
+}
+
+.txt1 {
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.2em;
+}
+
+.txt2 {
+    font-size: 22px;
+    font-weight: 600;
+    font-style: italic;
+    line-height: 1.2em;
+}
+
+.card_total {
+    @extend .mt-5;
+}
+
+.text_right {
+    text-align: right;
+}
+
+.card_total_txt {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.2em;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
+.card_total_price {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #282828;
+}
+
+.btn_full {
+    margin-top: 25px;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 20px 45px;
+    color: #fff;
+    background-color: #17c6aa;
+    width: 100%;
+    border: none;
+}
+
+.card_text_info {
+    @extend .mt-5;
+
+    h5 {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        margin: 0 0 20px;
+        padding: 0;
+        color: #282828;
+    }
+
+    h1 {
+        color: #282828;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 19px;
+        color: gray;
+    }
+}
+
+.block_accordion {
+    @extend .mt-10;
+}
+
+
+.panel {
+    @extend .mt-10;
+}
+
+.panel_heading {
+    @extend .justify-content-between;
+    border-bottom: 1px solid #f4f4f4;
+
+    h4 {
+        font-size: 20px;
+        line-height: 24px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        margin: 0 0 20px;
+        padding: 0;
+        color: #282828;
+    }
+
+    i {
+        font-size: 20px;
+    }
+}
+
+.select_wrapper {
+    @extend .mb-4;
+}
+
+.panel_body {
+    label {
+        font-size: 17px;
+        font-weight: inherit;
+        line-height: 21px;
+        margin-bottom: 5px;
+        color: #282828;
+        @extend .mb-3;
+    }
+
+    select {
+        padding: 0 44px 0 14px;
+        background-color: #f7f7f8;
+        font-size: 14px;
+        height: 50px;
+        width: 100%;
+        background-color: #f9f9f9;
+        border: none;
+    }
+
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        line-height: 23px;
+        color: #282828;
+    }
+
+    textarea {
+        background-color: #f9f9f9;
+        height: 102px;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 15px 20px;
+        width: 100%;
+        border: none
+    }
+}
+
+.form_group,
+.form_inline {
+    input {
+
+        width: 100%;
+        height: calc(1.5em + 0.75rem + 2px);
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        border: none;
+        color: #282828;
+        background-color: #f9f9f9;
+        font-size: 14px;
+        line-height: 20px;
+        height: 50px;
+    }
+}
+
+.form_inline {
+    button {
+        color: #fff;
+        background-color: #17c6aa;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 16px;
+        padding: 15px 30px;
+        cursor: pointer;
+        border: 0 !important;
+        border-radius: 4px;
+    }
+}

@@ -1,0 +1,42 @@
+.about_page_content {
+    height: 560px;
+}
+
+.about_holder {
+    background-image: url(../../../img/about-img.webp);
+    @extend .background-position-center;
+    @extend .background-repeat-noRepeat;
+    @extend .background-size-cover;
+    // background-image: url(../../../img/about-img.webp);
+    height: 100%;
+}
+
+.about_holder_content {
+    height: 100%;
+    @extend .flex;
+    @extend .align-items-center;
+}
+
+
+.page_title_bg {
+    h1 {
+        font-size: 50px;
+        margin-bottom: 40px;
+        font-weight: 800;
+        line-height: 1em;
+        margin: 0 0 45px;
+        padding: 0;
+        color: #282828;
+    }
+
+    p {
+        margin: 20px 0 0 0;
+        font-size: 15px;
+        line-height: 1.6em;
+    }
+
+}
+
+.fatty {
+    font-weight: 600;
+}

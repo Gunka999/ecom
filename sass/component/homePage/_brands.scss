@@ -1,0 +1,18 @@
+#brand_grid {
+  @extend .pt-16;
+}
+
+.brand_grid_list {
+  @extend .flex;
+
+  li {
+    img {
+      @extend .width-100;
+      opacity: 0.5;
+    }
+
+    &:hover img {
+      opacity: 1;
+    }
+  }
+}

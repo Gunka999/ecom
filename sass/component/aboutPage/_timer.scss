@@ -1,0 +1,34 @@
+#timer {
+    @extend .mt-16;
+    background: #fafafa;
+
+}
+
+.fact_block {
+    @extend .text-align-center;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+.number {
+    font-size: 90px;
+    font-weight: 800;
+    line-height: 1.1em;
+    color: #17c6aa;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 25px 35px 0;
+    font-family: 'Open Sans', sans-serif;
+}
