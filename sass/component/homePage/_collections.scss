@@ -23,17 +23,7 @@
     @extend .justify-content-center;
     cursor: pointer;
 
-    div {
-        font-size: 20px;
-        font-weight: 500;
-        color: $secondary-color;
-        @extend .ml-4;
-        @extend .mr-4;
 
-        &:hover {
-            @extend .color-black;
-        }
-    }
 }
 
 .tab_container_collection {
@@ -41,8 +31,31 @@
     @extend .ml-3;
 }
 
+.tab-header-item {
+    font-size: 20px;
+    font-weight: 500;
+    color: $secondary-color;
+    @extend .ml-4;
+    @extend .mr-4;
+
+    &:hover {
+        @extend .color-black;
+    }
+}
+
 .tab_container {
+    // @extend .flex;
+}
+
+.tab-content {
     @extend .flex;
+}
+
+
+.active {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .collection_list1 {
